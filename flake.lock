@@ -33,6 +33,18 @@
         "type": "github"
       }
     },
+    "haskell-flake": {
+      "locked": {
+        "lastModified": 1668056834,
+        "narHash": "sha256-m4kza1v7GyG8dEciszlvnHPkT5KmVsNgxHTmdiMRbhU=",
+        "type": "git",
+        "url": "file:///home/user/h/haskell-flake"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/user/h/haskell-flake"
+      }
+    },
     "nix-darwin": {
       "inputs": {
         "nixpkgs": [
@@ -111,6 +123,7 @@
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
+        "haskell-flake": "haskell-flake",
         "nix-darwin": "nix-darwin",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks-nix": "pre-commit-hooks-nix"
