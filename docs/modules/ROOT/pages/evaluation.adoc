@@ -252,6 +252,7 @@ Examples:
 
  - `dayOfMonth`: A list of integers representing the days of the month during which jobs should be created. Inclusive range: `[1 .. 31]`. Default: all days of the month. Combining with `dayOfWeek` further reduces the number of jobs.
 
+[[default-job]]
 == Default `onPush` job
 
 When the `herculesCI.onPush` attribute is omitted, Hercules CI will supply a default definition.
